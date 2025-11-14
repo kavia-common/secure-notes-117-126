@@ -1,0 +1,8 @@
+The Secure Notes backend expects a PostgreSQL connection URI set as POSTGRES_URL in the .env file:
+
+POSTGRES_URL=postgresql://<user>:<password>@<host>:<port>/<db>
+
+Sample for local dev:
+POSTGRES_URL=postgresql://postgres:postgres@localhost:5432/secure_notes
+
+Ensure the database is created and credentials match.
